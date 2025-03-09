@@ -57,38 +57,6 @@ public class UserDashboard {
             System.out.println("Application for " + vehicleType + " has been rejected due to age restrictions.");
         }
     }
-//    private void viewApplicationStatus() {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("Enter your Application ID: ");
-//        String applicationId = sc.nextLine();
-//
-//        String status = admin.getApplication(applicationId);
-//        System.out.println("\n===Application Status ===");
-//        System.out.println(status);
-//
-////        if (status == null) {
-////            System.out.println("Invalid Application ID. Please try again.");
-////        } else {
-////            switch (status.toLowerCase()) {
-////                case "pending":
-////                    System.out.println("Application Status: Pending");
-////                    break;
-////                case "approved":
-////                    System.out.println("Application Status: Approved");
-////                    break;
-////                case "rejected":
-////                    System.out.println("Application Status: Rejected");
-////                    break;
-////                default:
-////                    System.out.println("Unexpected status: " + status);
-////            }
-////        }
-//    }
-//    private boolean confirmLogout(Scanner sc) {
-//        System.out.print("Are you sure you want to logout? (Yes/No): ");
-//        String response = sc.nextLine().trim().toLowerCase();
-//        return response.equals("yes");
-//    }
 private void viewApplicationStatus() {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter your Application ID: ");
